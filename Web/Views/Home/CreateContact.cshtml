@@ -1,0 +1,42 @@
+﻿@model InfusionsoftWeb.Models.ContactInfo
+
+<h2>Create Contact</h2>
+
+
+	@using (Html.BeginForm("CreateContact", "Home"))
+	{
+		<table>
+			<tr>
+				<th>FirstName</th>
+				<td>@Html.TextBoxFor(m => m.FirstName)</td>
+			</tr>
+			<tr>
+				<th>LastName</th>
+				<td>@Html.TextBoxFor(m => m.LastName)</td>
+			</tr>
+			<tr>
+				<th>Email</th>
+				<td>@Html.TextBoxFor(m => m.Email)</td>
+			</tr>
+			<tr>
+				<th>Address</th>
+				<td>@Html.TextBoxFor(m => m.Address)</td>
+			</tr>
+			<tr>
+				<th>City</th>
+				<td>@Html.TextBoxFor(m => m.City)</td>
+			</tr>
+			<tr>
+				<th>Zipcode</th>
+				<td>@Html.TextBoxFor(m => m.Zipcode)</td>
+			</tr>
+			<tr>
+				<th>Phone Number</th>
+				<td>@Html.TextBoxFor(m => m.PhoneNumber)</td>
+			</tr>
+		</table>
+			<input  type="submit" value="Submit" name="submit" /> 
+		   
+		   
+	    
+	}
