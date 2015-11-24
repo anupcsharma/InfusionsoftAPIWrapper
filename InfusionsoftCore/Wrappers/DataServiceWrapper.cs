@@ -86,5 +86,10 @@ namespace InfusionsoftCoreLibrary
 		{
 			return Invoke(d => d.UpdateCustomField(ApiKey, customFieldId, values));
 		}
+
+		public virtual UserInfo GetUserInfo()
+		{
+			return Invoke(d => d.GetUserInfo());
+		}
 	}
 }
