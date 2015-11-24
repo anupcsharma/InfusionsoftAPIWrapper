@@ -43,5 +43,7 @@ namespace InfusionsoftCoreLibrary
 		string GetTemporaryKey(string username, string passwordHash);
 
 		bool UpdateCustomField(int customFieldId, System.Collections.IDictionary values);
+
+		UserInfo GetUserInfo();
 	}
 }

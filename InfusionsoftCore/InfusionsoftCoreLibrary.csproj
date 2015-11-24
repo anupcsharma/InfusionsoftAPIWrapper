@@ -49,6 +49,7 @@
     <Compile Include="IDataService.cs" />
     <Compile Include="IEmailService.cs" />
     <Compile Include="PasswordHasher.cs" />
+    <Compile Include="Tables\UserInfo.cs" />
     <Compile Include="Wrappers\ContactServiceWrapper.cs" />
     <Compile Include="InfusionsoftWebService.cs" />
     <Compile Include="CustomerInfusionSoftConfiguration.cs" />

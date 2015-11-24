@@ -62,5 +62,8 @@ namespace InfusionsoftCoreLibrary
 
 		[XmlRpcMethod("DataService.updateCustomField")]
 		bool UpdateCustomField(string apiKey, int customFieldId, IDictionary values);
+
+		[XmlRpcMethod("DataService.getUserInfo")]
+		UserInfo GetUserInfo();
 	}
 }
